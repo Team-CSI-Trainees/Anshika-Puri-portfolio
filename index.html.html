@@ -1,8 +1,10 @@
 <head>
-    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
 
     <link rel="stylesheet" href="C:\Users\dell\Desktop\git\info.txt">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
     <style>
         body{
             background-color:white;
@@ -18,7 +20,7 @@
 #home h1{
     position: relative;
     margin: 20px 0px 0px;
-    font-size:4em;
+    font-size:4em; 
     font-weight:900;
     color:#fff;
     z-index: 1;
@@ -145,7 +147,7 @@ width: 160px;
 }
 .gallery img:hover{
     background-color: white;
-    cursor:pointer
+    cursor:pointer;
 }
 
 #education{
@@ -273,74 +275,15 @@ width: 160px;
     flex-direction: column;
 
  }
- .container{
-    display:flex;
-    gap: 30px;
-    padding: 50px 20px;
-  
- }
  
- .about1{
-    background-color: black;
-   flex-grow: 1;
-   flex-basis:40%;
- }
- .about1 ul li{
-    list-style-type: none;
-    
- }
- .services{
-    background-color: black;
-    flex-grow: 1;
-   flex-basis:100%;
-
- }
- 
- .services ul {
-    list-style-type: none;
-    line-height:2px;
- }
- .services a{
-    color:white;
-    text-decoration: none;
-    padding:5px;
- }
- .services a:hover {
-    color:red;
-    text-decoration: underline;
- }
- 
- .contact{
-    background-color: black;
-    flex-grow: 1;
-   flex-basis:50%;
- }
- .contact ul{
-    list-style-type: none;
-    line-height:1.5px;
- }
- .contact ul li{
-    padding:15px;
- }
- 
- .contact a{
-    color:white;
-    text-decoration: none;
- }
- .contact a{
-    color:red;
-    text-decoration: underline;
- }
- .container h3{
-    margin-bottom: 20px;
-    font-size: 20px;
- }
  .copyright{
     padding:15px;
     text-align: center;
     border-top: 1px solid grey;
  }
- 
+ #icons{
+    color:grey;
+ }
 
  
 
@@ -373,7 +316,19 @@ width: 160px;
        </form>
     </section>
     <hr>
-
+    <section id="about" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg);">
+        <h1 class="heading">About Me</h1>
+        <div class="about">
+            <img src="C:\Users\dell\Desktop\anshika 2.jpg" alt="my picture">
+            <div class="name">
+            <h2>I'm Anshika Puri</h2>
+            <p>An enthusiatic ,talented ,ambitious and hardworking individual . I'm really passinate about learning and
+                gaining knowledge , I'm always looking for new ways to learn and improve my skills.I'm also a firm believer
+                of teamwork,and belive that working together is the best way to achieve success. </p>
+            </div>
+        </div>
+        </section>
+        <hr>
     <section id="portfolio" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg)">
         <h1 class="heading">Portfolio</h1>
        <div class="gallery">
@@ -448,19 +403,7 @@ width: 160px;
         
         
     </section><hr >
-    <section id="about" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg);">
-    <h1 class="heading">About Me</h1>
-    <div class="about">
-        <img src="C:\Users\dell\Desktop\anshika 2.jpg" alt="my picture">
-        <div class="name">
-        <h2>I'm Anshika Puri</h2>
-        <p>An enthusiatic ,talented ,ambitious and hardworking individual . I'm really passinate about learning and
-            gaining knowledge , I'm always looking for new ways to learn and improve my skills.I'm also a firm believer
-            of teamwork,and belive that working together is the best way to achieve success. </p>
-        </div>
-    </div>
-    </section>
-    <hr>
+  
 
     <section id="contact" style="background-image: url(https://www.desktopbackground.org/download/1680x1050/2013/07/30/615486_photography-portfolio-websites-minimalist-amazing-1920x1080-hd_1920x1080_h.jpg);">
         <h1 class="heading">Contact Me</h1>
@@ -473,34 +416,9 @@ width: 160px;
     </section>
     <hr>
     <footer>
-        <section class="container">
-            <div class="about1">
-                <h3>About Me</h3>
-                <ul> <li>
-                <p>An enthusiatic ,talented ,ambitious and hardworking individual . I'm really passinate about learning and
-                    gaining knowledge , I'm always looking for new ways to learn and improve my skills.I'm also a firm believer
-                    of teamwork,and belive that working together is the best way to achieve success.</p>
-                </li></ul> </div>
-            <div classs="services">
-                <h3>Services</h3>
-                <ul> 
-                    <li><a href="#portfolio">Service 1</a><br></li>
-                   <li> <a href="#portfolio">Service 2</a><br></li>
-                  <li><a href="#portfolio">Service 3</a><br></li>
-                  <li><a href="#portfolio">Service 4</a><br></li>
-                </ul>
-                   
-            </div>
-            <div class="contact">
-                <h3>Contact</h3>
-                <ul>
-                 
-                    <li>Phone no.:8001357738</li>
-                    <li>Email:anshikapuri1290@gmail.com</li>
-                    
-                </ul>
-            </div>
-        </section>
+      
+        <section id="icons"><p style="text-align:center;" ><i style="padding: 20px; font-size:2rem;" class="fa-brands fa-facebook-f"></i><i style="padding: 20px; font-size:2rem;" class="fa-brands fa-linkedin"></i><i style="padding: 20px; font-size:2rem;" class="fa-brands fa-square-twitter"></i><i  style="padding: 20px; font-size:2rem;" class="fa-brands fa-instagram"></i></p></section>
         <section class="copyright">Copyright &copy;Company name</section>
     </footer>
+ 
 </body>
